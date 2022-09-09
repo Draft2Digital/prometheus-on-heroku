@@ -10,5 +10,5 @@ scrape_configs:
     static_configs:
       - targets: ['draft2digital-staging-flower-t.herokuapp.com']
     basic_auth:
-      - username: admin
-      - password: password
+      - username: 'admin'
+        password: 'password'
