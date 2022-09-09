@@ -8,4 +8,7 @@ scrape_configs:
       - targets: ['localhost']
   - job_name: 'flower'
     static_configs:
-      - targets: ['https://draft2digital-staging-flower-t.herokuapp.com']
+      - targets: ['draft2digital-staging-flower-t.herokuapp.com']
+    basic_auth:
+      - username: admin
+      - password: password
