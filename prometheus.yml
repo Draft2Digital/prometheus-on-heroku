@@ -9,6 +9,4 @@ scrape_configs:
   - job_name: 'flower'
     static_configs:
       - targets: ['draft2digital-staging-flower-t.herokuapp.com']
-    basic_auth:
-      username: 'admin'
-      password: 'password'
+    scheme: 'https'
