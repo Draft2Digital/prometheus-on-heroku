@@ -8,5 +8,11 @@
     {
       "url": "https://github.com/heroku/heroku-buildpack-prometheus"
     }
-  ]
+  ],
+  "env": {
+    "PROMETHEUS_CONFIG_FILE": {
+      "description": "File name for prometheus config",
+      "value": ""
+    }
+  }
 }
